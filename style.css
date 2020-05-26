@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+body,
+nav {
+  background-color: hsl(217, 28%, 15%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: hsl(0, 0%, 100%, 0.8);
+}
+a:hover {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.intro {
+  background-image: url("./images/bg-curvy-desktop.svg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: bottom;
+  padding-bottom: 14rem;
+  background-size: contain;
+}
+
+.fylo-head h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700 !important;
+}
+
+ h4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700 !important;
+  color: white;
+}
+
+
+.fylo-intro-sec {
+  font-size: 16px;
+  color: hsla(0, 0%, 100%, 0.8);
+}
+
+.content {
+  background: hsl(218, 28%, 13%);
+}
+
+.feature{
+    margin: 3rem;
+    color: hsl(0, 0%, 100%, 0.8);
+}
+
+.security{
+    margin-top: -10px;
+}
+
+footer{
+    background-color:  hsl(216, 53%, 9%);
+}
+
+.attribution {
+    margin: 0;
+}
+
+.cyan-text span{
+    color: hsl(176, 68%, 64%) !important;
+    border-bottom: 1px solid cyan;
+    padding-bottom: 4px;
+   }
