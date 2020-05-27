@@ -42,12 +42,11 @@ a:hover {
   font-weight: 700 !important;
 }
 
- h4 {
+h4 {
   font-family: "Raleway", sans-serif;
   font-weight: 700 !important;
   color: white;
 }
-
 
 .fylo-intro-sec {
   font-size: 16px;
@@ -58,25 +57,109 @@ a:hover {
   background: hsl(218, 28%, 13%);
 }
 
-.feature{
-    margin: 3rem;
-    color: hsl(0, 0%, 100%, 0.8);
+.feature {
+  margin: 3rem;
+  color: hsl(0, 0%, 100%, 0.8);
 }
 
-.security{
-    margin-top: -10px;
+.security {
+  margin-top: -10px;
 }
 
-footer{
-    background-color:  hsl(216, 53%, 9%);
+footer {
+  background-color: hsl(216, 53%, 9%);
 }
 
 .attribution {
-    margin: 0;
+  margin: 0;
 }
 
-.cyan-text span{
-    color: hsl(176, 68%, 64%) !important;
-    border-bottom: 1px solid cyan;
-    padding-bottom: 4px;
-   }
+.cyan-text span {
+  color: hsl(176, 68%, 64%) !important;
+  border-bottom: 1px solid cyan;
+  padding-bottom: 4px;
+}
+
+.section-3 {
+  margin-top: 5rem;
+  background-image: url("./images/bg-quotes.png");
+  background-position: top-left;
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-position-x: 2rem;
+  background-position-y: 2rem;
+  color: hsl(0, 0%, 100%, 0.8);
+}
+
+.testimonial {
+  background-color: hsl(219, 30%, 18%);
+  margin: 1rem;
+  padding: 2rem 2rem 1rem 2rem;
+  box-shadow: 8px 8px 4px #b1b1b11a;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+.user {
+  margin-top: 2rem;
+}
+
+.username {
+  color: white;
+}
+
+.position {
+  font-size: 10px;
+}
+
+.early-access {
+  background-color: hsl(217, 28%, 15%);
+  text-align: center;
+  width: 60%;
+  position: relative;
+  margin-bottom: -8rem;
+  margin-top: 8rem;
+}
+
+.mail-head {
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+}
+
+.mail-sec {
+  color: hsl(0, 0%, 100%, 0.8);
+  width: 75%;
+    margin: auto;
+}
+
+.mail-input input {
+  width: 100% !important;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding: 3rem;
+}
+
+.fylo-btn {
+  background: linear-gradient(
+    to right,
+    hsl(176, 68%, 64%),
+    hsl(198, 60%, 50%)
+  ) !important;
+  border-radius: 30px;
+  color: white;
+  font-weight: 700;
+  padding: 15px 0
+}
+
+.footer {
+  margin-top: 10rem;
+  padding-left: 4rem;
+  margin-left: 2rem;
+}
+.footer-desc {
+  max-width: 90%;
+}
