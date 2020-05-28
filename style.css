@@ -132,7 +132,7 @@ h2 {
 .mail-sec {
   color: hsl(0, 0%, 100%, 0.8);
   width: 75%;
-    margin: auto;
+  margin: auto;
 }
 
 .mail-input input {
@@ -152,7 +152,11 @@ h2 {
   border-radius: 30px;
   color: white;
   font-weight: 700;
-  padding: 15px 0
+  padding: 15px 0;
+}
+
+.mail-btn {
+  width: 250px;
 }
 
 .footer {
@@ -162,4 +166,36 @@ h2 {
 }
 .footer-desc {
   max-width: 90%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer {
+    margin-top: 10rem;
+    padding-left: 0rem;
+    margin-left: 0rem;
+  }
+
+  .stay-prod {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .mail.btn {
+    font-size: 12px;
+    width: 200px;
+    margin-top: 1rem !important;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .mail-btn {
+    font-size: 12px;
+    width: 200px;
+    margin-top: 1rem !important;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .nav-item {
+    margin-top: 1rem !important;
+  }
 }
